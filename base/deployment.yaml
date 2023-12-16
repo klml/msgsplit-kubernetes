@@ -15,7 +15,7 @@ spec:
         app.kubernetes.io/name: msgsplit
     spec:
       containers:
-      - image: klml/msgsplit
+      - image: ghcr.io/klml/msgsplit:main
         name: msgsplit
         ports:
         - containerPort: 8080
